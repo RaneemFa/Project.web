@@ -1,3 +1,62 @@
-*{
-  font-family: tajawal;
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);  /*الخط*/
+
+* { /* للتهيئه*/
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: 'Droid Arabic Kufi', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  --primary-color: #f7f7ee;
+  --secondary-color: #06623b;
+  --Black: #111111;
+}
+
+#navBar{
+  list-style: none;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+#logo{
+ float: right;
+ margin-right: 20px;
+}
+
+.navList .nav{
+  display: inline-block;
+ height: 50px;
+ line-height: 50px;
+ width: 7rem;
+ text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  }
+
+a:hover{
+  color: var(--secondary-color);
+ }
+
+ #firstpage{
+   padding: 5cm;
+   text-align: center;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+   url("mm.jpg");
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background: cover;
+ }
+
+h1{
+  font-size: 2cm;
 }
