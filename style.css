@@ -54,17 +54,22 @@ header{
   width: 100%;
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
-  url("mm.jpg");
+  url("cc.jpg");
   color: white;
   background-repeat:no-repeat;
   background-size: cover;
 }
 
-
 h1{
   margin-top: 100px;
   font-size: 2cm;
 }
+/*about*/
+#about{
+  position: absolute;
+  top:500px;
+}
+
 /*typs*/
 #letters{
   position: absolute;
