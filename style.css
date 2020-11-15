@@ -137,3 +137,11 @@ color:white;
 }.cta a{
   color:white;
 }
+#firstpage {
+  height: 700px;
+  width: 100%;
+  background-image: url("cc.jpg");
+  margin-top: 20px;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
