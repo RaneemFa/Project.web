@@ -156,6 +156,14 @@ color:white;
   background-repeat:no-repeat;
   background-size: cover;
 }
+#fpage2{
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  background-image: url(".jpeg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
 .g-p{
  padding: 20px;
  line-height: 1.9;
