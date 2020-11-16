@@ -16,6 +16,10 @@ html{
 }
 
 #navBar{
+  position: fixed;
+  width: 100%;
+  background-color: Black;
+  opacity: 0.5;
   list-style: none;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
 }
@@ -144,10 +148,71 @@ color:white;
 .cta a{
   color:white;
 }
-#H0{
-  text-align: padding;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
-  color: white;
+#fpage{
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  background-image: url("TR.jpeg");
   background-repeat:no-repeat;
-  background-size:cover;
+  background-size: cover;
+}
+.g-p{
+ padding: 20px;
+ line-height: 1.9;
+ font-size: 15px;
+}
+.Fer1{
+  height: 480px;
+  width: 100%;
+  text-align: center;
+}
+.g1{
+  width: 631px;
+  height: 400px;
+  float: left;
+  background-color: white;
+}
+.g2 {
+  width: 632px;
+  height: 400px;
+  padding: 15px;
+  padding-top: 50px;
+  padding-right: 50px;
+  float: right;
+  background-color: white;
+}
+.g2 h2 , .g3 h2 , .g4 h2 , .g5 h2{
+  font-size: 38px;
+  color :gray;
+  background: -webkit-linear-gradient(#fcd024, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.g3 {
+  width: 600px;
+  height: 400px;
+  padding: 15px;
+  padding-top: 80px;
+  float: left;
+  padding-left: 50px;
+  margin-left: 50px;
+  background-color: white;
+}
+.g4 {
+  width: 610px;
+  height: 400px;
+  padding: 15px;
+  float: right;
+    padding-right: 50px;
+  margin-right: 20px;
+  background-color: white;
+}
+.g5 {
+  width: 612px;
+  height: 400px;
+  padding: 10px;
+  float: left;
+  padding-left: 50px;
+  margin-left: 20px;
+  background-color: white;
 }
