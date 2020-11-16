@@ -148,25 +148,28 @@ color:white;
   color:white;
 }
 #fpage{
-  height: 700px;
+  height: 500px;
   width: 100%;
   text-align: center;
-  background-image: url("TR.jpeg");
+  background-image: url("mm.jpg");
   background-repeat:no-repeat;
   background-size: cover;
 }
-#fpage2{
-  height: 700px;
-  width: 100%;
-  text-align: center;
-  background-image: url(".jpeg");
-  background-repeat:no-repeat;
-  background-size: cover;
+
+#fpage h2
+{
+   font-size: 40px;
+  color:white;
 }
-.g-p{
+#fpage p
+{
+   font-size: 17px;
+  color:white;
+}
+.parag1 {
  padding: 20px;
  line-height: 1.9;
- font-size: 15px;
+ font-size: 16px;
 }
 .Fer1{
   height: 480px;
@@ -190,8 +193,8 @@ color:white;
 }
 .g2 h2 , .g3 h2 , .g4 h2 , .g5 h2{
   font-size: 38px;
-  color :gray;
-  background: -webkit-linear-gradient(#fcd024, grey);
+  color :grey;
+  background: -webkit-linear-gradient(#06623b, grey);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
