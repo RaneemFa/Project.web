@@ -26,15 +26,15 @@ html{
 
 #logo{
  float: right;
- margin-right: 50px;
+ margin-right: 30px;
 }
 
 .navList .nav{
   margin: 0;
   padding: 0;
   display: inline-block;
- height: 50px;
- line-height: 50px;
+ height: 60px;
+ line-height: 60px;
  width: 7rem;
  text-align: center;
 }
@@ -54,7 +54,6 @@ a {
 header{
   height: 800px;
   width: 100%;
-  text-align: right;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
   url("cc.jpg");
   background-repeat:no-repeat;
@@ -67,12 +66,12 @@ header{
   height: 700px;
   padding-top: 100px;
   padding-right: 90px;
+  text-align: right;
   box-sizing: border-box;
 }
 
-h1{
-  margin-top: 100px;
-  font-size: 2cm;
+#logo2{
+  margin-right: 14cm;
 }
 
 /*typs*/
@@ -81,10 +80,10 @@ h1{
   top:955px;
 }
 #tutorials {
-    background-color:;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
+  background-color:;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
   text-align: center;
   height: 501px;
   padding: 25px
