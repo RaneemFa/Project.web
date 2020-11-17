@@ -80,7 +80,7 @@ header{
   top:955px;
 }
 #kinds {
-  background-color:;
+  background-color: var(--praimary-color);
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
@@ -94,11 +94,26 @@ header{
   margin-top: 20px;
   margin-top: 20px;
 }
+.col-1{
+  width: 45%;
+  height: 410px;
+  float: right;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+   url("uu.jpg");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 2.5%;
+}.col-left{
+  margin-left: 2%;
+}
+
 .col-2{
   width: 45%;
   height: 410px;
   float: right;
-  background-color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url("ee.webp");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid white;
   border-radius: 15px;
@@ -109,6 +124,12 @@ header{
 }
 .row h2{
   font-size: 30px;
+}
+
+.tut-footer{
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-top: 80px;
 }
 .tut-header{
   font-size: 27px;
