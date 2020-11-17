@@ -11,7 +11,7 @@
 
 html{
   --primary-color: #f7f7ee;
-  --secondary-color: #06623b;
+  --secondary-color: #d3de32 ;
   --Black: #111111;
 }
 
@@ -55,7 +55,7 @@ header{
   height: 800px;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
-  url("cc.jpg");
+  url("hh.gif");
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -152,12 +152,11 @@ header{
   height: 50px;
   margin: 30px;
   padding-top: 5px;
-  border-radius: 30px;
-  background-color: #06623b;
+  background-color: var(--secondary-color);
   color: white;
   font-size: 130%;
   box-shadow: 0 5px  grey;
-  border: none;
+  border-radius: 30px;
   cursor: pointer;
   transition-duration: 0.08s;
 }
@@ -172,6 +171,7 @@ color:white;
 }.cta a{
   color:white;
 }
+
 #fpage{
   height: 400px;
   width: 100%;
