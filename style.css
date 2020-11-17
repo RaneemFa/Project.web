@@ -75,11 +75,11 @@ header{
 }
 
 /*typs*/
-#letters{
+#typs{
   position: absolute;
   top:955px;
 }
-#tutorials {
+#kinds {
   background-color:;
   background-attachment: fixed;
   background-size: cover;
@@ -120,6 +120,11 @@ header{
   float: right;
   margin-right: 130px;
 }
+#about .cta{
+   position: absolute;
+   float: right;
+   margin-right: 260px;
+ }
 .cta{
   display: block;
   width: 190px;
@@ -143,12 +148,11 @@ color:white;
  .cta:active{
   box-shadow: 0px 0px grey;
   transform: translateY(5px);
-}
-.cta a{
+}.cta a{
   color:white;
 }
 #fpage{
-  height: 500px;
+  height: 400px;
   width: 100%;
   text-align: center;
   background-image: url("mm.jpg");
@@ -156,16 +160,6 @@ color:white;
   background-size: cover;
 }
 
-#fpage h2
-{
-   font-size: 40px;
-  color:white;
-}
-#fpage p
-{
-   font-size: 17px;
-  color:white;
-}
 .parag1 {
  padding: 20px;
  line-height: 1.9;
