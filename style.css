@@ -183,7 +183,7 @@ color:white;
 .parag1 {
  padding: 20px;
  line-height: 1.9;
- font-size: 16px;
+ font-size: 15px;
 }
 .Fer1{
   height: 480px;
@@ -205,7 +205,7 @@ color:white;
   float: right;
   background-color: white;
 }
-.g2 h2 , .g3 h2 , .g4 h2 , .g5 h2{
+.g2 h2 , .g3 h2 , .g4 h2 , .g5 h2 , .g6 h2 , .g7 h2 , .g8 h2{
   font-size: 38px;
   color :grey;
   background: -webkit-linear-gradient(#06623b, grey);
@@ -227,7 +227,7 @@ color:white;
   height: 400px;
   padding: 15px;
   float: right;
-    padding-right: 50px;
+  padding-right: 50px;
   margin-right: 20px;
   background-color: white;
 }
@@ -238,5 +238,32 @@ color:white;
   float: left;
   padding-left: 50px;
   margin-left: 20px;
+  background-color: white;
+}
+.g6 {
+  width: 610px;
+  height: 400px;
+  padding: 15px;
+  float: right;
+  padding-right: 50px;
+  margin-right: 20px;
+  background-color: white;
+}
+.g7 {
+  width: 612px;
+  height: 400px;
+  padding: 10px;
+  float: left;
+  padding-left: 50px;
+  margin-left: 20px;
+  background-color: white;
+}
+.g8{
+  width: 610px;
+  height: 400px;
+  padding: 15px;
+  float: right;
+  padding-right: 50px;
+  margin-right: 20px;
   background-color: white;
 }
