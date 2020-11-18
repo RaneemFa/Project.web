@@ -106,7 +106,7 @@ header{
    url("uu.jpg");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 20px;
   margin-right: 2.5%;
 }.col-left{
@@ -120,7 +120,7 @@ header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url("ee.webp");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid white;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 20px;
   margin-right: 2.5%;
 }.col-left{
@@ -155,7 +155,7 @@ header{
   color: white;
   font-size: 130%;
   box-shadow: 0 5px  black;
-  border-radius: 30px;
+  border-radius: 5px;
   cursor: pointer;
   transition-duration: 0.08s;
 }
