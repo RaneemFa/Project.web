@@ -171,6 +171,99 @@ color:white;
   color:white;
 }
 
+/* اعاده التدوير */
+
+#recycling{
+  position: absolute;
+  top:955px;
+}
+#recycling2 {
+  background-color: var(--praimary-color);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  height: 501px;
+  padding: 25px
+}
+.row2{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-top: 20px;
+}
+.rec-1{
+  width: 45%;
+  height: 410px;
+  float: right;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("       "); /* صوره1*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 2.5%;
+}.rec-left{
+  margin-left: 2%;
+}
+
+.rec-2{
+  width: 45%;
+  height: 410px;
+  float: right;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url("      "); /*صوره 2 */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 2.5%;
+}.rec-left{
+  margin-left: 2%;
+}
+.row2 h2{
+  font-size: 30px;
+}
+
+.tut2-footer{
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-top: 80px;
+}
+.tut2-header{
+  font-size: 27px;
+  padding: 3px;
+  font-weight: bold;
+}
+.rec-2 .layan{
+  position: absolute;
+  float: right;
+  margin-right: 130px;
+}
+.layan{
+  display: block;
+  width: 190px;
+  height: 50px;
+  margin: 30px;
+  padding-top: 5px;
+  background-color: #996515;
+  color: white;
+  font-size: 130%;
+  box-shadow: 0 5px  black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.08s;
+}
+.layan:hover{
+background-color:#7a5111;
+box-shadow: 1px 2px black;
+color:white;
+}
+ .layan:active{
+  box-shadow: 0px 0px grey;
+  transform: translateY(5px);
+}.layan a{
+  color:white;
+}
+
 #fpage{
   height: 300px;
   width: 100%;
@@ -267,3 +360,183 @@ color:white;
   margin-right: 20px;
   background-color: white;
 }
+/* اعاده التدوير */
+
+/* داخل صفحه السماد */
+#L1page{
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  background-image: url("mm.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+body{
+   margin:0;
+   padding:0;
+   font-family: sans-serif;
+}
+.ferList{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 60vh;
+ background: ;
+ margin: 270px 1px 1px 0px;
+ padding: 10px 4px 1px 50px;
+}
+.ferList .LFer{
+ list-style: none;
+ position: relative;
+ width: 30%;
+ height:100%;
+ border-right: 1px solid #000;
+ float: left;
+ box-sizing: border-box;
+ transition: 0.5s;
+ text-align: center;
+ overflow:hidden;
+}
+.ferList .LFer:nth-child(1)
+{
+ background: url(https://www.foochia.com/wp-content/uploads/2020/02/%D9%85%D8%B3%D8%AD%D9%88%D9%82-%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9-%D8%B9%D9%84%D9%89-%D8%AA%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D9%86%D8%A8%D8%A7%D8%AA%D8%A7%D8%AA..-%D9%85%D8%A7-%D8%AD%D9%82%D9%8A%D9%82%D8%A9-%D9%81%D9%88%D8%A7%D8%A6%D8%AF%D9%87%D8%9F.jpg);
+ background-size:cover;
+ background-position:left;
+}
+.ferList .LFer:nth-child(2)
+{
+ background: url(https://www.lamadreselva.com.ar/test/wp-content/uploads/2016/08/maceta_huevo.jpg);
+ background-size:cover;
+ background-position:left;
+}
+.ferList .LFer:nth-child(3)
+{
+ background: url(https://tomathouse.com/4/wp-content/uploads/2018/06/Zola-kak-udobrenie-17.jpg);
+ background-size:cover;
+ background-position:left;
+}
+.ferList:hover .LFer
+{
+ width:10%;
+}
+.ferList .LFer:hover
+{
+ width:60%;
+}
+.ferList .LFer .content{
+ position :absolute;
+ bottom:-100%;
+ left:0;
+ width:100%;
+ background:rgba(0,0,0,0.8);
+ box-sizing:border-box;
+ color:#fff;
+ opacity:0;
+ }
+.ferList .LFer:hover .content{
+ bottom:0;
+ transition:0.5s;
+ transition-delay:0.5s;
+ opacity:.8;
+}
+#hRef{
+ color:green;
+ font-size:45px;
+ font-family:Matura MT Script Capitals;
+ }
+#pRef{
+ color:white;
+ font-size:20px;
+ font-family:AR Julian;
+ }
+ /* داخل صفحه المبيد */
+ #L2page{
+   height: 300px;
+   width: 100%;
+   text-align: center;
+   background-image: url("mm.jpg");
+   background-repeat:no-repeat;
+   background-size: cover;
+ }
+
+ body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+ }
+ .insList{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  background: ;
+  margin: 270px 1px 1px 0px;
+  padding: 10px 4px 1px 50px;
+ }
+ .insList .Lins{
+  list-style: none;
+  position: relative;
+  width: 30%;
+  height:100%;
+  border-right: 1px solid #000;
+  float: left;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: center;
+  overflow:hidden;
+ }
+ .insList .Lins:nth-child(1)
+ {
+  background: url(https://www.fwd.co.uk/wp-content/uploads/2019/07/Track-adn-trace-800x550.jpg);
+  background-size:cover;
+  background-position:left;
+ }
+ .insList .Lins:nth-child(2)
+ {
+  background: url(https://tomathouse.com/4/wp-content/uploads/2018/06/Zola-kak-udobrenie-17.jpg);
+  background-size:cover;
+  background-position:left;
+ }
+ .insList .Lins:nth-child(3)
+ {
+  background: url(https://envato-shoebox-0.imgix.net/2226/fd87-e5b6-4f75-b4c3-c1a6dce559a5/0O1A5807.JPG?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=65acea6d5fb04217a5a9f1a17c880a96);
+  background-size:cover;
+  background-position:left;
+ }
+ .insList:hover .Lins
+ {
+  width:10%;
+ }
+ .insList .Lins:hover
+ {
+  width:60%;
+ }
+ .insList .Lins .content{
+  position :absolute;
+  bottom:-100%;
+  left:0;
+  width:100%;
+  background:rgba(0,0,0,0.8);
+  box-sizing:border-box;
+  color:#fff;
+  opacity:0;
+  }
+ .insList .Lins:hover .content{
+  bottom:0;
+  transition:0.5s;
+  transition-delay:0.5s;
+  opacity:.8;
+ }
+ #hins{
+  color:green;
+  font-size:45px;
+  font-family:Matura MT Script Capitals;
+  }
+ #pins{
+  color:white;
+  font-size:20px;
+  font-family:AR Julian;
+  }
