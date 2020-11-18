@@ -14,6 +14,10 @@ html{
   --secondary-color: #996515 ;
   --Black: #111111;
 }
+h2 {
+  font-size: 38px;
+  color: var(--Black);
+}
 
 #navBar{
   position: fixed;
@@ -360,6 +364,31 @@ color:white;
   margin-right: 20px;
   background-color: white;
 }
+<<<<<<< HEAD
+/*ماذا نزرع*/
+#plant{
+  position: absolute;
+  top:500px;
+} #plant1 {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+   url("ii.jpg"); ;
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 70px;
+  } #plant1 .cta{
+    position: absolute;
+    margin-right: 17cm;}
+
+  .about-p{
+  padding-top: 10px;
+  line-height: 1.9;
+  font-size: 20px;
+}
+=======
 /* اعاده التدوير */
 
 /* داخل صفحه السماد */
@@ -541,3 +570,4 @@ body{
   font-size:20px;
   font-family:AR Julian;
   }
+>>>>>>> 2741446db9d72ba65d5ccc77c43eca7f2ee89da7
