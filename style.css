@@ -11,7 +11,7 @@
 
 html{
   --primary-color: #f7f7ee;
-  --secondary-color: #d3de32 ;
+  --secondary-color: #996515 ;
   --Black: #111111;
 }
 
@@ -151,17 +151,17 @@ header{
   height: 50px;
   margin: 30px;
   padding-top: 5px;
-  background-color: var(--secondary-color);
+  background-color: #996515;
   color: white;
   font-size: 130%;
-  box-shadow: 0 5px  grey;
+  box-shadow: 0 5px  black;
   border-radius: 30px;
   cursor: pointer;
   transition-duration: 0.08s;
 }
 .cta:hover{
-background-color: #06623b;
-box-shadow: 1px 2px grey;
+background-color:#7a5111;
+box-shadow: 1px 2px black;
 color:white;
 }
  .cta:active{
