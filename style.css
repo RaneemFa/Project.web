@@ -397,7 +397,7 @@ color:white;
   width: 100%;
   text-align: center;
   background-image: url("mm.jpg");
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-size: cover;
 
 }
@@ -471,12 +471,12 @@ body{
  transition-delay:0.5s;
  opacity:.8;
 }
-#hRef{
+#hFer{
  color:green;
  font-size:45px;
  font-family:Matura MT Script Capitals;
  }
-#pRef{
+#pFer{
  color:white;
  font-size:20px;
  font-family:AR Julian;
