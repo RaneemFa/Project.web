@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);  /*الخط*/
 
-* { /* للتهيئه*/
+*{ /* للتهيئه*/
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -22,7 +22,7 @@ h2 {
 #navBar{
   position: fixed;
   width: 100%;
-  background-color: Black;
+  background-color: var(--Black);;
   opacity: 0.5;
   list-style: none;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
@@ -49,7 +49,7 @@ h2 {
 a {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: var(--primary-color);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   } a:hover{
@@ -60,7 +60,7 @@ a {
 header{
   height: 800px;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
   url("hh.gif");
   background-repeat:no-repeat;
   background-size: cover;
@@ -70,7 +70,7 @@ header{
   color: var(--primary-color);
   width: 100%;
   height: 700px;
-  padding-top: 100px;
+  padding-top: 450px;
   padding-right: 100px;
   text-align: right;
   box-sizing: border-box;
@@ -88,7 +88,7 @@ header{
   top:955px;
 }
 #kinds {
-  background-color: var(--praimary-color);
+  background-color:
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
@@ -164,7 +164,7 @@ header{
   transition-duration: 0.08s;
 }
 .cta:hover{
-background-color:#7a5111;
+background-color:#e5c5b5;
 box-shadow: 1px 2px black;
 color:white;
 }
@@ -242,31 +242,6 @@ color:white;
   float: right;
   margin-right: 130px;
 }
-.layan{
-  display: block;
-  width: 190px;
-  height: 50px;
-  margin: 30px;
-  padding-top: 5px;
-  background-color: #996515;
-  color: white;
-  font-size: 130%;
-  box-shadow: 0 5px  black;
-  border-radius: 5px;
-  cursor: pointer;
-  transition-duration: 0.08s;
-}
-.layan:hover{
-background-color:#7a5111;
-box-shadow: 1px 2px black;
-color:white;
-}
- .layan:active{
-  box-shadow: 0px 0px grey;
-  transform: translateY(5px);
-}.layan a{
-  color:white;
-}
 
 #fpage{
   height: 300px;
@@ -274,9 +249,8 @@ color:white;
   text-align: center;
   background-image: url("mm.jpg");
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size: cover
 }
-
 .parag1 {
  padding: 20px;
  line-height: 1.9;
@@ -364,15 +338,14 @@ color:white;
   margin-right: 20px;
   background-color: white;
 }
-<<<<<<< HEAD
+
 /*ماذا نزرع*/
 #plant{
   position: absolute;
   top:500px;
 } #plant1 {
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-   url("ii.jpg"); ;
+  background-color: #e5e5e5;
   width: 100%;
   height: 400px;
   margin: 0 auto;
@@ -388,7 +361,7 @@ color:white;
   line-height: 1.9;
   font-size: 20px;
 }
-=======
+
 /* اعاده التدوير */
 
 /* داخل صفحه السماد */
