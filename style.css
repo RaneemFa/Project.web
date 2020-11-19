@@ -329,17 +329,20 @@ color:white;
   position: absolute;
   top:500px;
 } #plant1 {
-  text-align: center;
+  padding-right: 100px;
+  padding-top: 70px;
+  text-align: right;
   background-color: #e5e5e5;
   width: 100%;
   height: 400px;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-top: 70px;
-  } #plant1 .cta{
+  } #plant1 .oo{
     position: absolute;
-    margin-right: 17cm;}
+    width: 650px;
+    height: 100px;
+    margin-right: 21cm;}
 
   .about-p{
   padding-top: 10px;
