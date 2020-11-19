@@ -88,7 +88,6 @@ header{
   top:955px;
 }
 #kinds {
-  background-color:
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
@@ -176,20 +175,6 @@ color:white;
 }
 
 /* اعاده التدوير */
-
-#recycling{
-  position: absolute;
-  top:955px;
-}
-#recycling2 {
-  background-color: var(--praimary-color);
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
-  text-align: center;
-  height: 501px;
-  padding: 25px
-}
 .row2{
   width: 90%;
   margin: 0 auto;
@@ -365,6 +350,19 @@ color:white;
 /* اعاده التدوير */
 
 /* داخل صفحه السماد */
+#hins{
+ color:white;
+ background: -webkit-linear-gradient(white, grey);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size:30px;
+ font-family: 'Droid Arabic Kufi', serif;
+ }
+#pins{
+ color:white;
+ font-size:17px;
+ font-family: 'Droid Arabic Kufi', serif;
+ }
 #L1page{
   height: 250px;
   width: 100%;
@@ -533,14 +531,3 @@ body{
   transition-delay:0.5s;
   opacity:.8;
  }
- #hins{
-  color:green;
-  font-size:45px;
-  font-family:Matura MT Script Capitals;
-  }
- #pins{
-  color:white;
-  font-size:20px;
-  font-family:AR Julian;
-  }
->>>>>>> 2741446db9d72ba65d5ccc77c43eca7f2ee89da7
