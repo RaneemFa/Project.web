@@ -353,19 +353,6 @@ color:white;
 /* اعاده التدوير */
 
 /* داخل صفحه السماد */
-#hins{
- color:white;
- background: -webkit-linear-gradient(white, grey);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
- font-size:30px;
- font-family: 'Droid Arabic Kufi', serif;
- }
-#pins{
- color:white;
- font-size:17px;
- font-family: 'Droid Arabic Kufi', serif;
- }
 #L1page{
   height: 250px;
   width: 100%;
@@ -373,9 +360,7 @@ color:white;
   background-image: url("mm.jpg");
   background-repeat:no-repeat;
   background-size: cover;
-
 }
-
 body{
    margin:0;
    padding:0;
@@ -446,30 +431,29 @@ body{
  transition-delay:0.5s;
  opacity:.8;
 }
-<<<<<<< HEAD
 #hFer{
- color:green;
- font-size:45px;
- font-family:Matura MT Script Capitals;
+ color:white;
+ background: -webkit-linear-gradient(white, grey);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size:30px;
+ font-family: 'Droid Arabic Kufi', serif;
  }
 #pFer{
  color:white;
- font-size:20px;
- font-family:AR Julian;
+ font-size:17px;
+ font-family: 'Droid Arabic Kufi', serif;
  }
-=======
->>>>>>> f33044ddbfd50608426111e3ca70a9047ade0093
  /* داخل صفحه المبيد */
- body{
-    margin:0;
-    padding:0;
-    font-family: sans-serif;
- }
-
  #L2page{
    height: 650px;
    width:100%;
    background-color: #e5e5e5;
+ }
+ body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
  }
  .insList{
   position: absolute;
@@ -535,3 +519,16 @@ background: url("tomato.jpg");
   transition-delay:0.5s;
   opacity:.8;
  }
+ #hins{
+  color:white;
+  background: -webkit-linear-gradient(white, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:30px;
+  font-family: 'Droid Arabic Kufi', serif;
+  }
+ #pins{
+  color:white;
+  font-size:17px;
+  font-family: 'Droid Arabic Kufi', serif;
+  }
