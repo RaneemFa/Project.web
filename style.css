@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);  /*الخط*/
 
-* { /* للتهيئه*/
+*{ /* للتهيئه*/
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -22,7 +22,7 @@ h2 {
 #navBar{
   position: fixed;
   width: 100%;
-  background-color: Black;
+  background-color: var(--Black);;
   opacity: 0.5;
   list-style: none;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
@@ -49,7 +49,7 @@ h2 {
 a {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: var(--primary-color);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   } a:hover{
@@ -60,7 +60,7 @@ a {
 header{
   height: 800px;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
   url("hh.gif");
   background-repeat:no-repeat;
   background-size: cover;
@@ -70,7 +70,7 @@ header{
   color: var(--primary-color);
   width: 100%;
   height: 700px;
-  padding-top: 100px;
+  padding-top: 450px;
   padding-right: 100px;
   text-align: right;
   box-sizing: border-box;
@@ -88,7 +88,6 @@ header{
   top:955px;
 }
 #kinds {
-  background-color: var(--praimary-color);
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
@@ -155,7 +154,7 @@ header{
   height: 50px;
   margin: 30px;
   padding-top: 5px;
-  background-color: #996515;
+  background-color:#7a5111;
   color: white;
   font-size: 130%;
   box-shadow: 0 5px  black;
@@ -164,7 +163,7 @@ header{
   transition-duration: 0.08s;
 }
 .cta:hover{
-background-color:#7a5111;
+background-color:#996515;
 box-shadow: 1px 2px black;
 color:white;
 }
@@ -176,20 +175,6 @@ color:white;
 }
 
 /* اعاده التدوير */
-
-#recycling{
-  position: absolute;
-  top:955px;
-}
-#recycling2 {
-  background-color: var(--praimary-color);
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
-  text-align: center;
-  height: 501px;
-  padding: 25px
-}
 .row2{
   width: 90%;
   margin: 0 auto;
@@ -242,31 +227,6 @@ color:white;
   float: right;
   margin-right: 130px;
 }
-.layan{
-  display: block;
-  width: 190px;
-  height: 50px;
-  margin: 30px;
-  padding-top: 5px;
-  background-color: #996515;
-  color: white;
-  font-size: 130%;
-  box-shadow: 0 5px  black;
-  border-radius: 5px;
-  cursor: pointer;
-  transition-duration: 0.08s;
-}
-.layan:hover{
-background-color:#7a5111;
-box-shadow: 1px 2px black;
-color:white;
-}
- .layan:active{
-  box-shadow: 0px 0px grey;
-  transform: translateY(5px);
-}.layan a{
-  color:white;
-}
 
 #fpage{
   height: 300px;
@@ -274,9 +234,8 @@ color:white;
   text-align: center;
   background-image: url("mm.jpg");
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size: cover
 }
-
 .parag1 {
  padding: 20px;
  line-height: 1.9;
@@ -364,34 +323,49 @@ color:white;
   margin-right: 20px;
   background-color: white;
 }
-<<<<<<< HEAD
+
 /*ماذا نزرع*/
 #plant{
   position: absolute;
   top:500px;
 } #plant1 {
-  text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-   url("ii.jpg"); ;
+  padding-right: 100px;
+  padding-top: 70px;
+  text-align: right;
+  background-color: #e5e5e5;
   width: 100%;
   height: 400px;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-top: 70px;
-  } #plant1 .cta{
+  } #plant1 .oo{
     position: absolute;
-    margin-right: 17cm;}
+    width: 650px;
+    height: 100px;
+    margin-right: 21cm;}
 
   .about-p{
   padding-top: 10px;
   line-height: 1.9;
   font-size: 20px;
 }
-=======
+
 /* اعاده التدوير */
 
 /* داخل صفحه السماد */
+#hins{
+ color:white;
+ background: -webkit-linear-gradient(white, grey);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size:30px;
+ font-family: 'Droid Arabic Kufi', serif;
+ }
+#pins{
+ color:white;
+ font-size:17px;
+ font-family: 'Droid Arabic Kufi', serif;
+ }
 #L1page{
   height: 250px;
   width: 100%;
@@ -459,6 +433,7 @@ body{
  position :absolute;
  bottom:-100%;
  left:0;
+ height:100%;
  width:100%;
  background:rgba(0,0,0,0.8);
  box-sizing:border-box;
@@ -471,6 +446,7 @@ body{
  transition-delay:0.5s;
  opacity:.8;
 }
+<<<<<<< HEAD
 #hFer{
  color:green;
  font-size:45px;
@@ -481,25 +457,24 @@ body{
  font-size:20px;
  font-family:AR Julian;
  }
+=======
+>>>>>>> f33044ddbfd50608426111e3ca70a9047ade0093
  /* داخل صفحه المبيد */
- #L2page{
-   height: 250px;
-   width: 100%;
-   text-align: center;
-   background-image: url("mm.jpg");
-   background-repeat:no-repeat;
-   background-size: cover;
- }
-
  body{
     margin:0;
     padding:0;
     font-family: sans-serif;
  }
+
+ #L2page{
+   height: 650px;
+   width:100%;
+   background-color: #e5e5e5;
+ }
  .insList{
   position: absolute;
-  top: 0;
-  left: 0;
+  top:0;
+  left:0;
   width: 100%;
   height: 48vh;
   background: ;
@@ -518,21 +493,20 @@ body{
   text-align: center;
   overflow:hidden;
  }
- .insList .Lins:nth-child(1)
- {
-  background: url(https://www.fwd.co.uk/wp-content/uploads/2019/07/Track-adn-trace-800x550.jpg);
+ .insList .Lins:nth-child(1){
+background: url("tomato.jpg");
   background-size:cover;
   background-position:left;
  }
  .insList .Lins:nth-child(2)
  {
-  background: url(https://tomathouse.com/4/wp-content/uploads/2018/06/Zola-kak-udobrenie-17.jpg);
+  background: url("nsecticide.jpg");
   background-size:cover;
   background-position:left;
  }
  .insList .Lins:nth-child(3)
  {
-  background: url(https://envato-shoebox-0.imgix.net/2226/fd87-e5b6-4f75-b4c3-c1a6dce559a5/0O1A5807.JPG?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=65acea6d5fb04217a5a9f1a17c880a96);
+  background: url("pepper.jpg");
   background-size:cover;
   background-position:left;
  }
@@ -548,6 +522,7 @@ body{
   position :absolute;
   bottom:-100%;
   left:0;
+  height:100%;
   width:100%;
   background:rgba(0,0,0,0.8);
   box-sizing:border-box;
@@ -560,14 +535,3 @@ body{
   transition-delay:0.5s;
   opacity:.8;
  }
- #hins{
-  color:green;
-  font-size:45px;
-  font-family:Matura MT Script Capitals;
-  }
- #pins{
-  color:white;
-  font-size:20px;
-  font-family:AR Julian;
-  }
->>>>>>> 2741446db9d72ba65d5ccc77c43eca7f2ee89da7
