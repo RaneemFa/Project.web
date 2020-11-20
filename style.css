@@ -354,12 +354,16 @@ color:white;
 
 /* داخل صفحه السماد */
 #L1page{
-  height: 250px;
+  height: 650px;
+  width:100%;
+  background-color: #e5e5e5;
+}
+/*  height: 250px;
   width: 100%;
   text-align: center;
-  background-image: url("mm.jpg");
+  /* background-image: url("mm.jpg");
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 body{
    margin:0;
@@ -373,8 +377,8 @@ body{
  width: 100%;
  height: 48vh;
  background: ;
- margin: 290px 1px 1px 0px;
- padding: 10px 4px 1px 50px;
+ margin: 200px 1px 1px 0px;
+ padding: 10px 4px 1px 100px;
 }
 .ferList .LFer{
  list-style: none;
@@ -462,8 +466,8 @@ body{
   width: 100%;
   height: 48vh;
   background: ;
-  margin: 290px 1px 1px 0px;
-  padding: 10px 4px 1px 50px;
+  margin: 200px 1px 1px 0px;
+  padding: 10px 4px 1px 100px;
  }
  .insList .Lins{
   list-style: none;
