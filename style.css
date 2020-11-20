@@ -210,10 +210,12 @@ color:white;
 }
 .row2 h2{
   font-size: 30px;
+  text-align: center;
 }
 
 .tut2-footer{
   font-size: 20px;
+  text-align: center;
   color: var(--primary-color);
   margin-top: 80px;
 }
@@ -222,7 +224,7 @@ color:white;
   padding: 3px;
   font-weight: bold;
 }
-.rec-2 .layan{
+.rec-2 .cta{
   position: absolute;
   float: right;
   margin-right: 130px;
