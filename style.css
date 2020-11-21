@@ -351,7 +351,56 @@ color:white;
   line-height: 1.9;
   font-size: 20px;
 }
-
+/*المواسم*/
+#seasons{
+  width: 100%;
+  height: 60px;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+.wh{
+color: #555555;
+text-align: center;
+transition: 1s ease-in-out;
+cursor: default;
+}
+.wh:hover{
+  transform: scale(1.1);
+  color: #212121;
+}
+.cards{
+  width: 20%;
+  height: 250px;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,.40);
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-right: 4%;
+}
+.cards-img{
+width: 70%;
+height: 60%;
+cursor: grab;
+transition: 1s ease-in-out;
+object-position: center;
+margin-right: 40px;
+margin-top:20px;
+object-fit: contain;
+}
+.cards-img:hover{
+transform: scale(1.2);
+}
+.cards-footer{
+color: #898b8a;
+text-align: center;
+font-size: 20px;
+transition: ease-in-out;
+cursor:default;
+}
+.cards-footer:hover{
+color: #555555;
+transform: scale(1.2);
+}
 /* اعاده التدوير */
 
 /* داخل صفحه السماد */
