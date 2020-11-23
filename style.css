@@ -226,7 +226,7 @@ color:white;
   float: right;
   margin-right: 130px;
 }
-
+/* النباتات الداخلية والخارجية */
 #fpage{
   height: 300px;
   width: 100%;
@@ -604,3 +604,42 @@ background: url("tomato.jpg");
     margin: 0 auto;
     margin-top: 510px;
     margin-bottom: 20px;
+}
+/* التطبيق */
+
+#application{
+  position: absolute;
+  top:1820px;
+}
+#app{
+  background-color: white;
+  height: 400px;
+  padding: 40px;
+}
+#vid{
+  float: left;
+  width:560px;
+  min-height:315px;
+}
+#c3{
+  position:static;
+  text-align: center;
+  right: 10%;
+  margin-top: 30px;
+}
+.me .me1{
+  float: right;
+  right: 10%;
+  padding: 10px;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-right: 10px;
+  line-height: 40px;
+}
+.mee{
+  position:absolute;
+  right: 11%;
+}
+iframe{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
