@@ -349,11 +349,6 @@ color:white;
     margin-right: 21cm;
     margin-top: 2cm;
   }
-  .uu1{
-    position: absolute;
-    margin-right: -30mm;
-    margin-top: -47mm;
-  }
   .plant-text{
   text-align: right;
   color: var(--Black);
@@ -600,7 +595,12 @@ background: url("tomato.jpg");
     text-align: right;
     background-color: #e5e5e5;
     width: 100%;
-    height: 450px;
+    height: 495px;
     margin: 0 auto;
     margin-top: 510px;
     margin-bottom: 20px;
+  }
+  .img2{
+    margin-right: 19cm;
+      margin-top: -10mm;
+  }
