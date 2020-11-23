@@ -628,7 +628,7 @@ background: url("tomato.jpg");
   margin-top: 30px;
 }
 .me .me1{
-  float: right;
+  float:right;
   right: 10%;
   padding: 10px;
   list-style-type: none;
