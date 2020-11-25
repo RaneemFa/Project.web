@@ -53,7 +53,7 @@
     <a href="winter.html"><img src="winter.png" alt="img" height="190" width="150"></a>
     <a href="fall.html"><img src="fall.png" alt="img" height="180" width="150"></a>
     <a href="summer.html"><img src="summer.png" alt="img" height="180" width="140"></a>
-    <a href="spring.html"><img src="spring.png" alt="img" height="190" width="150"class="uu1"></a>
+    <a href="spring.html"><img src="spring.png" alt="img" height="190" width="150"></a>
   </div>
     <div >
     <h2 style="font-size: 40px;">ماذا نزرع ؟ </h2>
@@ -83,8 +83,17 @@
 <div id="location"></div>
 <section id="location1">
   <div>
-    <img src="map.png" alt="img" style="margin-right: 19cm;">
-  <h2 style="font-size: 40px; "> </h2>
+    <label for="pet-select">حدد موقعك </label> <br>
+    <p>لتتعرف على أشهر المحاصيل الزراعية بمنطقتك..</p> <br>
+    <select name="select-location" onchange="location = this.value;">
+        <option value=""> أختر منطقتك   </option>
+        <option value="north.html">المنطقة الشمالية</option>
+        <option value="south.html">المنطقة الجنوبية</option>
+        <option value="western.html">المنطقة الغربية</option>
+        <option value="central.html">المنطقة الوسطى</option>
+        <option value="eastern.html">المنطقة الشرقية </option>
+    </select>
+  <img src="map.png" alt="img" style="margin-right: 19cm;">
   </section>
   </div>
   <br><br><br>
