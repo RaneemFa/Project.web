@@ -265,12 +265,12 @@ color:white;
 }
 .g2 {
   width: 632px;
-  height: 400px;
-  padding: 15px;
-  padding-top: 50px;
-  padding-right: 50px;
-  float: right;
-  background-color: white;
+   height: 400px;
+   padding: 15px;
+   padding-top: 50px;
+   padding-right: 50px;
+   float: right;
+   background-color: white;
 }
 .g2 h2 , .g3 h2 , .g4 h2 , .g5 h2 , .g6 h2 , .g7 h2 , .g8 h2{
   font-size: 38px;
@@ -280,13 +280,13 @@ color:white;
   -webkit-text-fill-color: transparent;
 }
 .g3 {
-  width: 600px;
+  width: 610px;
   height: 400px;
   padding: 15px;
-  padding-top: 80px;
+  padding-top: 60px;
   float: left;
   padding-left: 50px;
-  margin-left: 50px;
+  margin-left: 20px;
   background-color: white;
 }
 .g4 {
@@ -299,13 +299,14 @@ color:white;
   background-color: white;
 }
 .g5 {
-  width: 612px;
+  width: 610px;
   height: 400px;
-  padding: 10px;
+  padding: 15px;
+  padding-top: 60px;
   float: left;
   padding-left: 50px;
   margin-left: 20px;
-  background-color: white;
+  background-color: white
 }
 .g6 {
   width: 610px;
@@ -314,16 +315,17 @@ color:white;
   float: right;
   padding-right: 50px;
   margin-right: 20px;
-  background-color: white;
+  background-color: white
 }
 .g7 {
-  width: 612px;
+  width: 610px;
   height: 400px;
-  padding: 10px;
+  padding: 15px;
+  padding-top: 60px;
   float: left;
   padding-left: 50px;
   margin-left: 20px;
-  background-color: white;
+  background-color: whit;
 }
 .g8{
   width: 610px;
@@ -332,7 +334,7 @@ color:white;
   float: right;
   padding-right: 50px;
   margin-right: 20px;
-  background-color: white;
+  background-color: white
 }
 
 /*ماذا نزرع*/
