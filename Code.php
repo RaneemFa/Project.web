@@ -31,8 +31,8 @@
     <!--الصفحة الاولى-->
     <div id="firstpage">
       <p style="font-size: 50px; text-align: right";>   مـرحبـاً بـك في موقـعك غـرسـة</p>
-         <p style="font-size: 30px; text-align: right";> نقدم لك معلومات نباتية واستراتيجيات زراعية لإثرائك بأهمية النبـات للبيئة و الإنسان </p>
-         <p style="font-size: 30px; text-align: right";> وذلك من خلال تضامننا لزيادة الرقعة الخضراء في عالمنا.<p>
+         <p style="font-size: 30px; text-align: right"; data-aos="fade-left"> نقدم لك معلومات نباتية واستراتيجيات زراعية لإثرائك بأهمية النبـات للبيئة و الإنسان </p>
+         <p style="font-size: 30px; text-align: right"; data-aos="fade-left"> وذلك من خلال تضامننا لزيادة الرقعة الخضراء في عالمنا.<p>
   </div>
 </header>
   <!-- الانواع -->
@@ -62,8 +62,8 @@
   </div>
     <div >
     <h2 style="font-size: 40px;">ماذا نزرع ؟ </h2>
-    <p class="plant-text">موقع غرسة يوضح لك أفضل مايمكن القيام بزراعته </p>
-    <p class="plant-text"> بشكل مقسم حسب فصول السنة. </p>
+    <p class="plant-text" data-aos="fade-left">موقع غرسة يوضح لك أفضل مايمكن القيام بزراعته </p>
+    <p class="plant-text" data-aos="fade-left"> بشكل مقسم حسب فصول السنة. </p>
     </div>
 </section>
   <!-- اعاده تدوير -->
@@ -89,9 +89,9 @@
 <section id="location1">
   <img class="qq" src="map.png" alt="img" style="margin-right: 19cm;">
   <div>
-    <h2 style="font-size: 40px;">حدد موقعك</h2>
-    <p class="plant-text">لتتعرف على أشهر المحاصيل الزراعية بمنطقتك</p>
-    <select name="select-location" onchange="location = this.value;">
+    <h2 style="font-size: 40px;" data-aos="fade-left">حدد موقعك</h2>
+    <p class="plant-text" data-aos="fade-left">لتتعرف على أشهر المحاصيل الزراعية بمنطقتك</p>
+    <select name="select-location" onchange="location = this.value;" data-aos="fade-left">
         <option value=""> اختر منطقتك   </option>
         <option value="north.html">المنطقة الشمالية</option>
         <option value="south.html">المنطقة الجنوبية</option>
@@ -105,15 +105,15 @@
   <!-- التطبيق -->
   <div id="application"></div>
   <section id="app">
-    <iframe id="vid" src="https://www.youtube-nocookie.com/embed/YlShOhYP6rs" allowfullscreen> </iframe>
+    <iframe id="vid" src="https://www.youtube-nocookie.com/embed/YlShOhYP6rs" allowfullscreen data-aos="fade-right"> </iframe>
     <div id="c3">
-  <h2>تطبيق GARDINA </h2>
-  <p> حمّل تطبيق جاردينا GARDINA
+  <h2  data-aos="fade-left">تطبيق GARDINA </h2>
+  <p  data-aos="fade-left"> حمّل تطبيق جاردينا GARDINA
 للتعرف على النباتات بإلتقاط صورة، ومعرفة ظروف زراعتها وطرق العناية بها، ويقدم التطبيق خدمات تصميم للحدائق والاستشارات المتعلقة بنباتات الزينة وأمراضها.</p>
         <div class="mee">
   <ul class="me">
-  <li  class="me1">  <a href="https://apps.apple.com/us/app/gardina-jardyna-lnbatat-alzynt/id1055628038" >  <img src="apple1.jpg" alt="appstore" width= 150 height=50> </a> </li>
-  <li  class="me1">  <a href="https://play.google.com/store/apps/details?id=com.iphonealsham.gardina" >  <img src="app.store.jpg" alt="appstore" width= 150 height=50> </a></li>
+  <li  class="me1">  <a href="https://apps.apple.com/us/app/gardina-jardyna-lnbatat-alzynt/id1055628038" >  <img src="apple1.jpg" alt="appstore" width= 150 height=50 data-aos="fade-up"> </a> </li>
+  <li  class="me1">  <a href="https://play.google.com/store/apps/details?id=com.iphonealsham.gardina" >  <img src="app.store.jpg" alt="appstore" width= 150 height=50 data-aos="fade-up"> </a></li>
   </ul> </div>
   </section>
   </div>
