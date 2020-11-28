@@ -5,6 +5,9 @@
     <meta name="description" content="wibsite">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>غـرسـة </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
     <link href="style.css" rel="stylesheet">
     <script src="script.js"></script>
   </head>
@@ -133,4 +136,38 @@ if (isset($_POST['name'])){
  ?>
 </section>
   </body>
+
+  <body>
+    <div class="posts-wrapper">
+   <?php foreach ($posts as $post): ?>
+   	<div class="post">
+      <?php echo $post['text']; ?>
+      <div class="post-info">
+
+      	<i <?php if (userLiked($post['id'])): ?>
+      		  class="fa fa-thumbs-up like-btn"
+      	  <?php else: ?>
+      		  class="fa fa-thumbs-o-up like-btn"
+      	  <?php endif ?>
+      	  data-id="<?php echo $post['id'] ?>"></i>
+      	<span class="likes"><?php echo getLikes($post['id']); ?></span>
+
+      	&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+      	<i
+      	  <?php if (userDisliked($post['id'])): ?>
+      		  class="fa fa-thumbs-down dislike-btn"
+      	  <?php else: ?>
+      		  class="fa fa-thumbs-o-down dislike-btn"
+      	  <?php endif ?>
+      	  data-id="<?php echo $post['id'] ?>"></i>
+      	<span class="dislikes"><?php echo getDislikes($post['id']); ?></span>
+      </div>
+   	</div>
+   <?php endforeach ?>
+  </div>
+  <script src="scripts.js"></script>
+  </body>
+  
 </html>
