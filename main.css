@@ -1,14 +1,12 @@
 .posts-wrapper {
-  width: 50%;
+  width: 100%;
   margin: 20px auto;
-  border: 1px solid #eee;
-  background-color: #e5e5e5;
+font-size: 30px;
+text-align: center;
 }
 .post {
-  width: 90%;
-  margin: 20px auto;
+  width: 100%;
   padding: 10px 5px 0px 5px;
-  border: 1px solid green;
 }
 .post-info {
   margin: 10px auto 0px;
