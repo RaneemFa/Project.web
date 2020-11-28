@@ -24,7 +24,7 @@
           <li  class="nav"> <a href = "#plant1"> ماذا نزرع </a><br></li>
           <li  class="nav"> <a href = "#recycling2 "> إعادة التدوير </a><br></li>
           <li  class="nav"> <a href = " #location1"> حدد موقعك </a><br></li>
-          <li  class="nav"> <a href = " "> تواصل </a><br></li>
+          <li  class="nav"> <a href = "#contact"> تواصل </a><br></li>
         </ul>
       </nav>
     <!--الصفحة الاولى-->
