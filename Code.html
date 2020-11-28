@@ -125,6 +125,12 @@
   <textarea  id="message" class="input" rows= "5" cols= "100"  placeholder="اكتب رسالتك" required></textarea><br>
   <input class="cta" type="submit" value="ارسـال" ></div>
  </form> </div>
+ <?php
+if (isset($_POST['name'])){
+  $name = $_POST['name'];
+  echo "<h2>شكراً $name على تواصلك معنا</h2>"
+}
+ ?>
 </section>
   </body>
 </html>
