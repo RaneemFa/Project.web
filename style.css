@@ -701,3 +701,35 @@ select {
 iframe{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
 }
+/*تواصل*/
+#contact1{
+  position: absolute;
+  top:500px;
+}#contact {
+  text-align: center;
+  background-color:  #e5e5e5 ;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 450px;
+  padding: 20px;
+} #contact .cta{
+  position: absolute;
+  float: right;
+  right: 630px;}
+
+input[type=text],textarea {
+    width: 700px;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+}
+input[type=submit]{
+  padding-bottom: 15px;
+}
+.input{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19) ;
+   }
