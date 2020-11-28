@@ -7,8 +7,8 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>غـرسـة </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
     <link href="style.css" rel="stylesheet">
     <script src="script.js"></script>
   </head>
@@ -88,18 +88,8 @@
 <section id="location1">
   <img class="qq" src="map.png" alt="img" style="margin-right: 19cm;">
   <div>
-<<<<<<< Updated upstream
     <h2 style="font-size: 40px;">حدد موقعك</h2>
     <p class="plant-text">لتتعرف على أشهر المحاصيل الزراعية بمنطقتك</p>
-=======
-<<<<<<< HEAD
-    <label for="pet-select">  حدد موقعك <br>
-    لتتعرف على أشهر المحاصيل الزراعية بمنطقتك </label> <br>
-=======
-    <h2 style="font-size: 40px;">حدد موقعك</h2>
-    <p class="plant-text">لتتعرف على أشهر المحاصيل الزراعية بمنطقتك</p>
->>>>>>> 79aeb5a0ee4e800aa2ccdb76df3ef119008f98f9
->>>>>>> Stashed changes
     <select name="select-location" onchange="location = this.value;">
         <option value=""> اختر منطقتك   </option>
         <option value="north.html">المنطقة الشمالية</option>
@@ -131,7 +121,7 @@
 <section id="contact">
 <h2 style="font-size: 30px;">تواصل معنا </h2>
   <div>
-  <form method="post" action="" >
+  <form method="post" action="Code.php" >
   <div>
  <input id="name" class="input" name="name" type="text" size="50" placeholder="الاسم"><br>
  </div>
@@ -142,13 +132,14 @@
  <?php
 if (isset($_POST['name'])){
   $name = $_POST['name'];
-  echo "<h2>شكراً $name على تواصلك معنا</h2>"
+  echo "<p>شكراً $name على تواصلك معنا<p>";
 }
  ?>
 </section>
   </body>
+
   <body>
-  <div class="posts-wrapper">
+    <div class="posts-wrapper">
    <?php foreach ($posts as $post): ?>
    	<div class="post">
       <?php echo $post['text']; ?>
@@ -178,5 +169,6 @@ if (isset($_POST['name'])){
    <?php endforeach ?>
   </div>
   <script src="scripts.js"></script>
-</body>
+  </body>
+
 </html>
