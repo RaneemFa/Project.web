@@ -735,3 +735,30 @@ input[type=submit]{
 .input{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19) ;
    }
+
+
+/*teamWork*/
+
+   #footer{
+     clear: both;
+     text-align: center;
+     background-color: white;
+     padding: 12px;
+   }
+   .row0{
+     margin-top: 20px;
+     height: 40px;
+     margin-left: 30px;
+   }
+   .col-0{
+     width: 300px;
+     float: left;
+     text-align: center;
+     background-color: #e5e5e5;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 5px;
+     border: 1px solid white;
+     padding: 15px;
+     margin-bottom: 20px;
+     margin-right: 23px;
+   }
