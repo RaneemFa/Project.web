@@ -175,5 +175,41 @@ if (isset($_POST['name'])){
   </div>
   <script src="scripts.js"></script>
   </body>
-
+  <section id="footer">
+            <div class="row0">
+              <!--Raneem-->
+              <div class="col-0">
+              <h2>رنـيـم الرميحـي </h2>
+              <footer class="tut-footer"><p> <a  href ="mailto:RA12N31@gmail.com">
+              <img src ="eml.png" alt="mail icon" width="50" height="30" > البريد الالكتروني </a> </p></footer>
+              </div>
+              <!--Alaa-->
+              <div class="col-0">
+              <h2>الاء الصـهيـل </h2>
+              <footer class="tut-footer"><p> <a  href ="mailto:aalaa.alsaheel@gmail.com">
+                <img src ="eml.png" alt="mail icon" width="50" height="30" > البريد الالكتروني </a> </p></footer>
+              </div>
+              <!--Noura-->
+              <div class="col-0">
+                <h1> نوره المـطرفـي </h1>
+              <footer class="tut-footer"><p> <a  href ="mailto:Nur.fa@gmail.com">
+              <img src ="eml.png" alt="mail icon" width="50" height="30" > البريد الالكتروني </a> </p></footer>
+              </div>
+              <!--Reema-->
+              <div class="col-0">
+              <h2>ريمـا الراشـد </h2>
+              <footer class="tut-footer"><p> <a  href ="mailto:Hhh-0.0@hotmail.com">
+              <img src ="eml.png" alt="mail icon" width="50" height="30" > البريد الالكتروني </a> </p></footer>
+              </div>
+              <!--Layan-->
+              <div class="col-0">
+                <h2>ليـان العبيـد</h2>
+              <footer class="tut-footer"><p> <a  href ="mailto:laayaanalobaid@gmail.com">
+              <img src ="eml.png" alt="mail icon" width="50" height="30" > البريد الالكتروني </a> </p></footer>
+              </div>
+            </div>
+            <br><br><br>
+            <br><br><br>
+  </section>
+  </div>
 </html>
